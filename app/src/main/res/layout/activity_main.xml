@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- This page is set up using a constraint layout so each element is
+    constraint
+    by what is around it when choosing how everything is structured in the
+    layout.-->
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<!-- A TextView displays text to the user
+If needed you can also allow the user
+to view and edit the text-->
+<!--Each elements have many attributes that each have different
+functionality.
+Many are optimal however some are required. For example, the width and
+height need to be set for every element in this page.-->
+<TextView
+    android:id="@+id/tv_title"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-condensed"
+    android:text="Tic Tac Toe \n Game"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Start Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintVertical_bias="0.849"
+        android:backgroundTint="@color/android_green"
+        android:textColor="@color/black" />
+    <!--In the two lines above you can see how the layout refers
+    to colors from the colors.xml sheet.-->
+</androidx.constraintlayout.widget.ConstraintLayout>

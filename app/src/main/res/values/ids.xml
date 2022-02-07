@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_box2" type="id" />
+    <item name="btn_box0" type="id" />
+    <item name="btn_box1" type="id" />
+    <item name="tv_player1Score" type="id" />
+    <item name="tv_player2Score" type="id" />
+    <item name="btn_box7" type="id" />
+    <item name="btn_box6" type="id" />
+    <item name="btn" type="id" />
+    <item name="btn_box8" type="id" />
+    <item name="tv_turn" type="id" />
+    <item name="btn_reset" type="id" />
+    <item name="btn_box3" type="id" />
+    <item name="btn_box4" type="id" />
+    <item name="btn_box5" type="id" />
+</resources>
